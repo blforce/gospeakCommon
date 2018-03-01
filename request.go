@@ -19,4 +19,5 @@ type Request interface {
 	GetRequestType() string
 	GetPlatform() int
 	GetResponse() Response
+	GetLanguage() string
 }
