@@ -1,7 +1,7 @@
 package gospeakCommon
 
 type Response interface {
-	SetText(string) Response
+	AddText(string) Response
 	SetImageCard(string, string, string) Response
 	GetBytes() []byte
 }
